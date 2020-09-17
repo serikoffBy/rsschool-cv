@@ -2,7 +2,7 @@
 
 ### Contacts:<br>Tel. (029) 533-65-58<br>Email: kornaush@gmail.com
 
-### I graduated from university in 2009. I started programming in 2007 and I liked doing something new. I am always ready to develop and learn.
+### I graduated from university in 2009. I started programming in 2007 and I liked doing something new.<br> I am always ready to develop and learn.
 
 ### Skills:
 * HTML
