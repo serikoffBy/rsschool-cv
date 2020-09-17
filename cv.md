@@ -8,7 +8,7 @@
 * HTML
 * CSS
 * JavaScript
-* C#
+* C# (.Net)
 * SQL
 
 ### Code examples will be available on this github
