@@ -1,0 +1,21 @@
+.wrapper {
+    max-width: 1024px;
+    font-family: sans-serif;
+    text-align:center;
+    align-items: center;
+}
+
+
+ul{
+    max-width:500px;
+    margin-top: 0px;
+    margin-bottom: 0px;	
+    display:inline-block;
+    text-align: left;
+}
+
+
+
+.my-foto {
+    width: 140px;
+}
