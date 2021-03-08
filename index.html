@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="menu">
+        <img src="logo_rs2.svg" alt="logo">
+        <a href="https://github.com/serikoffBy">GitHub</a>
+      </nav>
+    </header>
+    <section class="cv_all">
+      <aside class="sidebar">
+        <div class="avatar">
+          <img src="foto.jpg" alt="foto">
+        </div>
+        <h2>contacts</h2>
+        <div class="contacts">
+          <ul>
+            <li>E-mail: kornaush@gmail.com</li>
+            <li>tel.: +375-29-533-65-58</li>
+          </ul>
+        </div>
+        <section class="skills_info">
+          <h2 class="skills">Skills</h2>
+          <div>
+            <ul class="list_skills">
+              <li>html</li>
+              <li>css</li>
+              <li>Git</li>
+              <li>JavaScript</li>
+              <li>C#</li>
+            </ul>
+          </div>
+        </section>
+      </aside>
+      <section class="info">
+        <div class="name_prof">
+          <h2>Sergei Kornaushenko</h2>
+          <h3>Junior Front-end Developer</h3>
+        </div>
+        <div class="about_me">
+          <h2>About me</h2>
+          <ul>
+            <li>Purposefulness</li>
+            <li>Curiosity</li>
+            <li>Ability to quickly learn new things</li>
+            <li>Ability to independently plan my working hours and follow this plan
+            </li>
+          </ul>
+        </div>
+        <div class="education">
+          <h2>Education / training courses</h2>
+          <ul>
+            <li>JavaScript courses in RS School</li>
+            <li>JavaScript courses in Andersen</li>
+            <li>JavaScript on learn.javascript.ru</li>
+          </ul>
+        </div>
+        <div class="example_code">
+          <h2>Example of code</h2>
+          <pre>
+            class DepthCalculator {
+              calculateDepth(arr) {
+                if (!Array.isArray(arr)) return 0;  
+                return 1 + Math.max(...arr.map(item => this.calculateDepth(item)), 0);
+              }
+            };
+          </pre>
+        </div>
+        <div class="english">
+          <h2>English language</h2>
+          <span>A2, now I try to devote time to English classes every day.</span>
+        </div>
+      </section>
+    </section>
+    <footer class="footer">
+      <a href="https://rolling-scopes-school.github.io/stage0/#/stage0/tasks/html-css"><img src="logo_rs_text.svg" alt="RS School"></a>
+      <a href="https://github.com/serikoffBy">Follow me on GitHub</a>
+      <time>2021</time>
+    </footer>
+  </div>  
+</body>
+</html>
